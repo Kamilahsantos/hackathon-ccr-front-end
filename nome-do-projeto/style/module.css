@@ -63,6 +63,10 @@ body{
     margin-left: 3%;
 }
 
+a{
+    text-decoration: none;
+}
+
 .content-card-modules{
     margin-left: 10%;
     margin-right: 10%;
