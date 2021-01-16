@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap');
+
+html,
+body{
+    background-color: #E5E5E5;
+    height: 100%;
+}
+
+header{
+    margin-top: 0;
+}
+
+ul.my-menu{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 35%;
+    margin-top: 0;
+}
+
+ul.my-menu li{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    color: #291F71;
+    padding-top: 30px;
+}
+
+ul.my-menu li.color-item{
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background: #C82586;
+    border-radius: 0px 0px 15px 15px;
+    color: #FFFFFF;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#login-page {
+    width: 500px;
+}
+
+.style-card{
+    margin-top: 18%;
+    padding: 2% 2% 2% 2%;
+    border-radius: 15px;
+}
+
+.content h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #291F71;
+    text-align: center;
+}
+
+.content p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: .3em;
+}
+
+/*
+label focus color
+.input-field input[type=email]:focus + label {
+    color: #291F71;
+}
+label underline focus color
+.input-field input[type=email]:focus {
+    border-bottom: 1px solid #291F71;
+    box-shadow: 0 1px 0 0 #291F71;
+}
+
+label focus color
+.input-field input[type=password]:focus + label {
+    color: #291F71;
+    }
+
+label underline focus color
+    .input-field input[type=password]:focus {
+        border-bottom: 1px solid #291F71;
+        box-shadow: 0 1px 0 0 #291F71;
+    }
+*/
+.style-btn{
+    background-color: #291F71;
+    padding: 2% 0 2% 0;
+    border: 2px solid #291F71;
+    border-radius: 12px;
+    width: 40%;
+    margin-left: 30%;
+
+
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+}
+
+.style-btn:hover{
+    cursor: pointer;
+    background-color: #FFFFFF;
+    border: 2px solid #291F71;
+    color: #291F71;
+}
+
+.align-login-icons{
+    display: flex;
+    justify-content: center;
+}
+
+a img.icon-login{
+    width: 60px;
+    height: 61.03px;
+}
+
+.first-icon{
+    margin-right: 42px;
+}
+
+.image img{
+    position: absolute;
+    top: 60px;
+    left: 890px;
+    width: 780px;
+    height: 680px;
+}
+
+ul.course-list li{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #291F71;
+    text-align: center;
+
+}
+
+ul.course-list li.first-item{
+    margin-top: 600px;
+}
