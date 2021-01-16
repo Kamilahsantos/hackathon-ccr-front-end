@@ -67,16 +67,28 @@ ul.my-menu li.color-item{
     line-height: .3em;
 }
 
-  /* label focus color */
-  .input-field input[type=email]:focus + label {
+/*
+label focus color
+.input-field input[type=email]:focus + label {
     color: #291F71;
-  }
-  /* label underline focus color */
-  .input-field input[type=email]:focus {
+}
+label underline focus color
+.input-field input[type=email]:focus {
     border-bottom: 1px solid #291F71;
     box-shadow: 0 1px 0 0 #291F71;
-  }
+}
 
+label focus color
+.input-field input[type=password]:focus + label {
+    color: #291F71;
+    }
+
+label underline focus color
+    .input-field input[type=password]:focus {
+        border-bottom: 1px solid #291F71;
+        box-shadow: 0 1px 0 0 #291F71;
+    }
+*/
 .style-btn{
     background-color: #291F71;
     padding: 2% 0 2% 0;

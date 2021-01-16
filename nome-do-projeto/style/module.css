@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap');
+
+body{
+    margin-top: 0;
+}
+
+.content-header-module{
+    margin-left: 15%;
+    margin-right: 13%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.text h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #291F71;
+}
+
+.text h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.go-to-profile{
+    width: 407px;
+    height: 180px;
+    background: rgba(200, 37, 134, 0.8);
+    border-radius: 0px 0px 30px 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.go-to-profile a{
+    display: flex;
+    flex-direction: row;
+
+    text-decoration: none;
+}
+
+.go-to-profile a p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+.go-to-profile img{
+    width: 79px;
+    height: 79px;
+    border-radius: 50%;
+
+    margin-top: 40px;
+    margin-right: 3%;
+}
+
+.go-to-profile img.icon-go-to-profile{
+    margin-left: 3%;
+}
+
+.content-card-modules{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+.card-module-soft-skills,
+.card-module-beginner,
+.card-module-intermediate{
+    width: 419px;
+    height: 279px;
+    background-color:#4EEAF6;
+    display: inline-block;
+    border-radius: 30px;
+    margin-right: 3%;
+    margin-bottom: 3%;
+}
+
+.first-card{
+    margin-left: 6%;
+}
+
+.card-module-intermediate{
+    background-color:  #291F71;
+}
+
+.card-module-soft-skills p.title,
+.card-module-beginner p.title,
+.card-module-intermediate p.title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #291F71;
+    text-align: center;
+    line-height: .2em;
+    margin-top: 65px;
+}
+
+.card-module-soft-skills p.course,
+.card-module-beginner p.course,
+.card-module-intermediate p.course{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: #291F71;
+    text-align: center;
+}
+
+.card-module-intermediate p.title,
+.card-module-intermediate p.course{
+    color: #FFFFFF;
+}
+
+/*progress bar*/
+.container {
+    width: 180px;
+    height: 25px;
+    background-color: #291F71;
+    position: relative;
+    border-radius: 10px;
+    margin-left: 28%;
+}
+
+.container-empty {
+    width: 180px;
+    height: 25px;
+    background-color: #CCC;
+    position: relative;
+    border-radius: 10px;
+    margin-left: 28%;
+}
+/*progress bar*/
