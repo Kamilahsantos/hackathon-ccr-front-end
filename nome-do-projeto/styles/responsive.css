@@ -4,4 +4,33 @@
     display:none;
 }
 
+.image ul{
+    display: none;
+}
+
+ul.my-menu{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 5%;
+}
+
+ul.my-menu li{
+    font-size: 30px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#login-page {
+    width: 500px;
+    margin-left: 10%;
+}
+
+
 }
