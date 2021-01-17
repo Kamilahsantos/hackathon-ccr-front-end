@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.background{
+    background-color: #4EEAF6;
+    width: 100%;
+    height: 271px;
+}
+
+header img{
+    width: 265px;
+    height: 265px;
+    border-radius: 50%;
+    margin-left: 12%;
+    border: 4px solid #4EEAF6;
+    position: absolute;
+    top: 150px;
+}
+
+header h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #291F71;
+    text-transform: uppercase;
+    position: absolute;
+    top: 200px;
+    left: 650px;
+}
+
+.content-profile{
+    display: flex;
+    flex-direction: row;
+}
+
+.info{
+    margin-left: 10%;
+    margin-top: 9%;
+}
+
+.info p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #291F71;
+    line-height: 2.5em;
+    width: 320px;
+    text-align: center;
+}
+
+img.level-profile{
+    margin-left: 85px;
+}
+
+.card-profile{
+    width: 315px;
+    height: 438px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+
+.card-profile img{
+    width: 185px;
+    height: 190px;
+    margin-top: 35px;
+    margin-left: 65px;
+}
+
+.card-profile h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: #291F71;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.card-profile a{
+    text-decoration: none;
+}
+
+.card-profile p.change-course{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #8257E5;
+    text-align: center;
+}
+
+p.my-projects{
+    margin-top: 5%;
+    width: 353px;
+    text-align: center;
+}
+
+.projects,
+.projects-voluntary{
+    display: flex;
+    flex-direction: row;
+}
+
+.first-card,
+.second-card{
+    width: 180px;
+    height: 180px;
+    background: #4EEAF6;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-card{
+    margin-right: 2%;
+}
+
+p.title-card{
+    font-size: 30px;
+    line-height: 2em;
+}
+
+p.know-project{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 2em;
+}
+
+.back-to-class{
+    display: flex;
+    flex: row;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.back-to-class img{
+    width: 50px;
+    height: 50px;
+}
+
+p.p-back-to-class{
+    font-size: 30px;
+    text-align: left;
+    margin-left: 3%;
+}
+
+.personal-info{
+    width: 70%;
+}
+
+.personal-info ul{
+    list-style: none;
+    margin-left: 20%;
+    margin-top: 8%;
+}
+
+.personal-info ul li{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #353839;
+}
+
+li.li-email{
+    margin-bottom: 6%;
+}
+
+li.personal-data{
+    margin-top: 8%;
+}
+
+li.personal-data a{
+    color: #8257E5;
+    text-decoration: underline;
+}
+
+.container-voluntary-projects{
+    position: absolute;
+    width: 1058px;
+    height: 450px;
+    left: 845px;
+    top: 1090px;
+
+    background: #291F71;
+    border-radius: 30px 0px 0px 0px;
+}
+
+.container-voluntary-projects h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.container-voluntary-projects h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.projects-voluntary{
+    margin-left: 5%;
+}
+
+.title-card-voluntary{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #291F71;
+    width: 320px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 2em;
+}
+
+p.know-project-voluntary{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 2em;
+}
+
+.go-to-voluntary-projects{
+    width: 60px;
+    height: 60px;
+    margin-left: 3%;
+    margin-top: 60px;
+}
