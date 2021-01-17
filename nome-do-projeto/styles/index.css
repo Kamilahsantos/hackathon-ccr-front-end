@@ -89,13 +89,18 @@ label underline focus color
         box-shadow: 0 1px 0 0 #291F71;
     }
 */
+
+.login{
+width: 200PX;
+}
+
 .style-btn{
     background-color: #291F71;
-    padding: 2% 0 2% 0;
+    padding: 10px 70px 10px 70px;
     border: 2px solid #291F71;
     border-radius: 12px;
-    width: 40%;
-    margin-left: 30%;
+ 
+    margin-left: 25%;
 
 
     font-family: 'Roboto', sans-serif;
