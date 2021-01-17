@@ -72,8 +72,99 @@
         <div class="calendar">
             <h3>Agendar mentoria</h3>
             <p>Selecione o dia, mentor e horário. O convite da mentoria será enviado ao seu e-mail.</p>
-            <div id="my-calendar"></div>
+            <div id="my-calendar">
+                <div class="conteudo">
+                    <div class="calendario">
+                        <header>				
+                            <h2 id="mes"></h2>
+                            <a class="btn-ant" id="btn_prev"><</a>
+                            <a class="btn-pro" id="btn_next">></a>
+                        </header>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td>DOM</td>
+                                    <td>SEG</td>
+                                    <td>TER</td>
+                                    <td>QUA</td>
+                                    <td>QUI</td>
+                                    <td>SEX</td>
+                                    <td>SAB</td>
+                                </tr>
+                            </thead>
+                            <tbody id="dias">
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td class="event"></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+            
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <footer>
+                            <h2 id="ano">2020</h2>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+            <div class="schedule">
+                <input type="text" id="mentor" placeholder="Nome do mentor">
+                <input type="text" id="day" placeholder="Jan, 18">
+                <input type="text" id="hour" placeholder="07:00 AM">
+                <button class="button-schedule">Agendar</button>
+            </div>
         </div>
     </div>
+
+    <script src="../script/calendar.js"></script>
 </body>
 </html>
