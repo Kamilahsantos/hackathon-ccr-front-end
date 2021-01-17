@@ -4,7 +4,7 @@
 - gulpjs
   sudo npm install gulp -g
   * Documentação <https://gulpjs.com/>
-  * Guia pratico para compreender melhor o funcionamento do gulo <https://css-tricks.com/gulp-for-beginners/>
+  * Guia pratico para compreender melhor o funcionamento do gulp <https://css-tricks.com/gulp-for-beginners/>
   Depois  de instalar o gulpjs, 
 - gulp-sass
    npm install node-sass gulp-sass --save-dev
