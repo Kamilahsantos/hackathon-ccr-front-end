@@ -5,9 +5,10 @@ function banner(){
 <html>
     <head>
         <title>Title of the document</title>
-        <link rel="stylesheet" href=".././styles/css/reset.min.css">
-        <link rel="stylesheet" href=".././styles/css/header.min.css">
-        <link rel="stylesheet" href=".././styles/css/main.min.css">
+        <link rel="stylesheet" href="./styles/css/reset.min.css">
+        <link rel="stylesheet" href="./styles/css/swiper-bundle.min.min.css">
+        <link rel="stylesheet" href="./styles/css/header.min.css">
+        <link rel="stylesheet" href="./styles/css/main.min.css">
     </head>
     <body>
         <div class="container">
