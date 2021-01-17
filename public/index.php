@@ -1,9 +1,10 @@
 <?php
 include_once("header.php");
+include_once("register.php");
 include_once("footer.php");
 banner();
+register();
 ?>
- <h1>teste</h1>
 
 <?php
 
