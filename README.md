@@ -43,10 +43,3 @@ npm install node-sass gulp-sass --save-dev
 
 Criado por Time 255 - Hackaton CCR segunda edição
 
-
-
-
-
-
-
-
